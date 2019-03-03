@@ -7,7 +7,7 @@ import initializeDb from './db';
 import middleware from './middleware';
 import api from './api';
 import config from './config.json';
-
+//http://localhost:8080/api/
 let app = express();
 app.server = http.createServer(app);
 
